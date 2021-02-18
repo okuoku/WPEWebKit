@@ -28,9 +28,12 @@
 #include <wtf/HashTraits.h>
 #include <algorithm>
 #include <glib.h>
+#include <glib-object.h>
 
+#if 0
 extern "C" void g_object_unref(gpointer);
 extern "C" gpointer g_object_ref_sink(gpointer);
+#endif
 
 namespace WTF {
 
