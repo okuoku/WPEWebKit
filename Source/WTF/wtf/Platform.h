@@ -565,9 +565,9 @@
 
 #if PLATFORM(GTK) || PLATFORM(WPE)
 #define USE_GLIB 1
-#define USE_FREETYPE 1
-#define USE_HARFBUZZ 1
-#define USE_SOUP 1
+//#define USE_FREETYPE 1
+//#define USE_HARFBUZZ 1
+//#define USE_SOUP 1
 
 #if PLATFORM(GTK)
 #define USE_WEBP 1
