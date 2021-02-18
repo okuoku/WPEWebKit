@@ -41,6 +41,15 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+set(GLIB_FOUND 1)
+set(GLIB_INCLUDE_DIRS 
+    /home/oku/yocto-work/webkit/test/glib-emscripten/target/lib/glib-2.0/include
+    /home/oku/yocto-work/webkit/test/glib-emscripten/target/include/glib-2.0
+    /home/oku/yocto-work/webkit/test/glib-emscripten/target/include/gio-unix-2.0
+    )
+
+return()
+
 find_package(PkgConfig)
 pkg_check_modules(PC_GLIB QUIET glib-2.0)
 

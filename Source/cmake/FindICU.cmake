@@ -9,6 +9,17 @@
 #  ICU_I18N_LIBRARIES - Libraries to link against for ICU internationaliation
 #                       (note: in addition to ICU_LIBRARIES)
 
+set(ICU_FOUND 1)
+set(ICU_I18N_FOUND OFF)
+set(ICU_INCLUDE_DIRS
+    /home/oku/yocto-work/webkit/test/WPEWebKit/Source/WTF/icu
+    #/home/oku/yocto-work/webkit/test/icu/icu4c/source/common
+    )
+set(ICU_LIBRARIES)
+set(ICU_I18N_LIBRARIES)
+
+return()
+
 find_package(PkgConfig)
 pkg_check_modules(PC_ICU icu-uc)
 
